@@ -1,15 +1,10 @@
-import Animal from './animal';
-
-class T extends Animal {
-	constructor() {
-		super('yes');
-	}
-}
-
-const t = new T();
-
-console.log(t.name);
-
-if (t == null) {
-	console.log('1111');
+/**
+ * @template T 
+ * @param {Promise<T>} promise 
+ * @returns {Promise<[Error, T]>} 
+ */
+export default function awaitTo<T>(promise: Promise<T>): Promise<[Error, T]> {
+	return promise
+			.then((data: T) => [null as any, data])
+			.catch((e: Error) => [e, null as any]) 
 }
