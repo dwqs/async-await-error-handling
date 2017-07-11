@@ -1,4 +1,5 @@
 # async-await-error-handling
+[![build pass](https://api.travis-ci.org/dwqs/async-await-error-handling.svg?branch=master)](https://travis-ci.org/dwqs/async-await-error-handling)
 
 Error handling friendly for async/await in ts and js.
 
