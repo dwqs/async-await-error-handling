@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
-    "rootDir": "src",
     "outDir": "lib",
     "isolatedModules": false,
     "experimentalDecorators": true,
@@ -16,7 +15,8 @@
     "allowUnusedLabels": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "test/**/*.ts"
   ],
   "compileOnSave": false
 }
