@@ -1,4 +1,4 @@
-# async-await-error
+# async-await-error-handling
 
 Error handling friendly for async/await.
 
