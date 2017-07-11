@@ -6,6 +6,10 @@
   "license": "MIT",
   "main": "dist/index.min.js",
   "typings": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwqs/async-await-error-handling"
+  },
   "scripts": {
     "clean": "rm -rf dist typings types",
     "prepush": "npm run lint",
