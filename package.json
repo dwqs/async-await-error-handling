@@ -4,10 +4,10 @@
   "author": "dwqs",
   "description": "Error handling friendly for async/await",
   "license": "MIT",
-  "main": "dist/test.min.js",
+  "main": "dist/index.min.js",
   "typings": "types/index.d.ts",
   "scripts": {
-    "clean": "rm -rf dist typings example/dist types",
+    "clean": "rm -rf dist typings types",
     "prepush": "npm run lint",
     "prebuild": "npm run prepush && ./node_modules/.bin/tsc -p ./tsconfig.types.json",
     "build": "./node_modules/.bin/rollup -c && ./node_modules/.bin/rollup -c rollup.build.config.js",
