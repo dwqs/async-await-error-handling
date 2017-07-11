@@ -2,7 +2,7 @@
   "name": "async-await-error-handling",
   "version": "0.5.2",
   "author": "dwqs",
-  "description": "Error handling friendly for async/await",
+  "description": "Error handling friendly for async/await in ts and js",
   "license": "MIT",
   "main": "dist/index.min.js",
   "typings": "types/index.d.ts",

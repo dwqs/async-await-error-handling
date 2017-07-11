@@ -1,6 +1,6 @@
 # async-await-error-handling
 
-Error handling friendly for async/await.
+Error handling friendly for async/await in ts and js.
 
 # Installation
 Install the pkg with npm:
