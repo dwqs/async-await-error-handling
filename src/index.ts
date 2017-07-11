@@ -1,7 +1,8 @@
 /**
+ * @export
  * @template T 
  * @param {Promise<T>} promise 
- * @returns {Promise<[Error, T]>} 
+ * @returns {(Promise<T[] | Error[]>)} 
  */
 export default function awaitTo<T>(promise: Promise<T>): Promise<T[] | Error[]> {
 	return promise
