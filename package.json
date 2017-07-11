@@ -22,7 +22,7 @@
     "prepush": "npm run lint",
     "prebuild": "npm run prepush && ./node_modules/.bin/tsc -p ./tsconfig.types.json",
     "build": "./node_modules/.bin/rollup -c && ./node_modules/.bin/rollup -c rollup.build.config.js",
-    "postbuild": "mkdir types && mv typings/index.d.ts types/ && rm -rf typings",
+    "postbuild": "mkdir types && mv typings/src/index.d.ts types/ && rm -rf typings",
     "lint": "./node_modules/.bin/tslint -p ./tsconfig.json --type-check src/**/*.ts",
     "fix": "./node_modules/.bin/tslint -p ./tsconfig.json --type-check --fix src/**/*.ts"
   },
