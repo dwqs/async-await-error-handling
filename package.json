@@ -6,6 +6,11 @@
   "license": "MIT",
   "main": "dist/index.min.js",
   "typings": "types/index.d.ts",
+  "keywords": [
+    "async",
+    "await",
+    "error handling"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dwqs/async-await-error-handling"
